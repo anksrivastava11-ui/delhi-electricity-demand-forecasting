@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.mplconfig/
+
+# Source workbooks are not distributed with this repository.
+data/
+
+# Generated experiment outputs stay local.
+artifacts/
