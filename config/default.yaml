@@ -1,0 +1,15 @@
+paths:
+  raw_dir: data/raw
+  processed_file: data/processed/daily_demand.parquet
+  artifacts_dir: artifacts
+data:
+  target: Unrestricted demand
+  date_column: Date
+  temperature_columns: [Max_Temperature, Min_Temperature]
+  social_file: data/raw/Delhi.xlsx
+  years: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+features:
+  lags: [1, 2, 3, 7, 14, 28, 365]
+  rolling_windows: [7, 14, 28]
+models: [seasonal_naive, holt_winters, arima, sarimax, prophet, random_forest, xgboost, lightgbm, lstm]
+seed: 42
