@@ -697,6 +697,4 @@ artifacts. They are available for use, not part of the documented flow.
 
 ### Licence
 
-No licence file is included yet. Without one, default copyright applies and
-others may not reuse the code; add a `LICENSE` before making the repository
-public if that is not the intent.
+The repository is licensed under the MIT License. See the 'LICENSE' file for the full license text.
